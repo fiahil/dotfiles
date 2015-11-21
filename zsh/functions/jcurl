@@ -1,0 +1,5 @@
+function jcurl() {
+    curl -sv "$@" | json -o json-4 | pygmentize -l json
+}
+
+compdef jcurl=curl
