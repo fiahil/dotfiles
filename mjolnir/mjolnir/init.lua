@@ -7,8 +7,8 @@ local grid = require "mjolnir.bg.grid"
 
 grid.GRIDHEIGHT = 3
 grid.GRIDWIDTH = 3
-grid.MARGINX = 8
-grid.MARGINY = 8
+grid.MARGINX = 6
+grid.MARGINY = 6
 
 --
 -- Aternate grid
@@ -17,13 +17,13 @@ local alternate = function ()
   if grid.GRIDHEIGHT == 3 or grid.GRIDWIDTH == 3 then
     grid.GRIDHEIGHT = 2
     grid.GRIDWIDTH = 2
-    grid.MARGINX = 12
-    grid.MARGINY = 12
+    grid.MARGINX = 8
+    grid.MARGINY = 8
   else
     grid.GRIDHEIGHT = 3
     grid.GRIDWIDTH = 3
-    grid.MARGINX = 8
-    grid.MARGINY = 8
+    grid.MARGINX = 6
+    grid.MARGINY = 6
   end
 end
 
