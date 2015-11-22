@@ -4,4 +4,5 @@ DOTFILES_DIRS=" $HOME/dotfiles/rcm \
 		$HOME/dotfiles/mjolnir \
 		$HOME/dotfiles/ag \
 		$HOME/dotfiles/git \
-		$HOME/dotfiles/vim"
+		$HOME/dotfiles/vim \
+		$HOME/dotfiles/iterm"
