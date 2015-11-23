@@ -1,0 +1,7 @@
+
+" Remap NERDTree
+nnoremap <leader>n :NERDTreeToggle
+
+colorscheme gruvbox
+set background=dark    " Setting dark mode"
+
