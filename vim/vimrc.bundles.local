@@ -1,5 +1,5 @@
 
 Plug 'flazz/vim-colorschemes'
 Plug 'scrooloose/nerdtree'
-Plug 'jiangmiao/auto-pairs'
+" Plug 'jiangmiao/auto-pairs'
 Plug 'nathanaelkane/vim-indent-guides'

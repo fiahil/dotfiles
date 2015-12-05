@@ -4,7 +4,6 @@ nnoremap <leader>n :NERDTreeToggle<CR>
 
 " Autopairs
 let g:AutoPairsMultilineClose = 0
-let g:AutoPairsShortcutFastWrap = '<C-w>'
 
 colorscheme gruvbox
 set background=dark    " Setting dark mode"
