@@ -53,8 +53,8 @@ if [[ $(uname) == 'Darwin' ]]; then
 else
   # Debian/Ubuntu
 
-  apt-get update && apt-get upgrade -y
-  apt-get install -y silversearcher-ag wget htop tree vim
+  sudo apt-get update && sudo apt-get upgrade -y
+  sudo apt-get install -y silversearcher-ag wget htop tree vim
 
   # Install RCM
   wget https://thoughtbot.github.io/rcm/debs/rcm_1.3.0-1_all.deb
