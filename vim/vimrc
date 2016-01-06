@@ -59,6 +59,7 @@ augroup vimrcEx
 
   " Custom rules
   autocmd FileType haskell setlocal omnifunc=necoghc#omnifunc
+  autocmd FileType python setlocal omnifunc=jedi#completions
 augroup END
 
 " Softtabs, 2 spaces
@@ -155,6 +156,26 @@ let g:syntastic_eruby_ruby_quiet_messages =
 
 " Activate powerline fonts for vim airline
 let g:airline_powerline_fonts=1
+
+" Configure Neocomplete
+let g:neocomplete#enable_at_startup=1
+let g:neocomplete#enable_smart_case=1
+
+" Use Tab for completion
+inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
+
+" Use Jedi Omni completion
+let g:jedi#completions_enabled=0
+let g:jedi#auto_vim_configuration=0
+let g:jedi#smart_auto_mappings=0
+
+" Force input patterns
+if !exists('g:neocomplete#force_omni_input_patterns')
+  let g:neocomplete#force_omni_input_patterns={}
+endif
+let g:neocomplete#force_omni_input_patterns.python=
+      \ '\%([^. \t]\.\|^\s*@\|^\s*from\s.\+import \|^\s*from \|^\s*import \)\w*'
+" alternative pattern: '\h\w*\|[^. \t]\.\w*'
 
 " Set spellfile to location that is guaranteed to exist, can be symlinked to
 " Dropbox or kept in Git and managed outside of thoughtbot/dotfiles using rcm.

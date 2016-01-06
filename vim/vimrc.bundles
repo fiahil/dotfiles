@@ -39,6 +39,8 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-unimpaired'
 Plug 'vim-scripts/tComment'
 Plug 'bling/vim-airline'
+Plug 'shougo/neocomplete.vim'
+Plug 'davidhalter/jedi-vim'
 
 if filereadable(expand("~/.vimrc.bundles.local"))
   source ~/.vimrc.bundles.local
