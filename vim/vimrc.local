@@ -1,6 +1,7 @@
 
 " Remap NERDTree
 nnoremap <leader>n :NERDTreeToggle<CR>
+let g:jedi#usages_command="<leader>u"
 
 " Autopairs
 let g:AutoPairsMultilineClose = 0
