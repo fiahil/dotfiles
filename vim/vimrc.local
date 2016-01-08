@@ -1,7 +1,11 @@
 
 " Remap NERDTree
 nnoremap <leader>n :NERDTreeToggle<CR>
+
+" Custom Jedi
 let g:jedi#usages_command="<leader>u"
+let g:jedi#goto_command = "<leader>c"
+let g:jedi#goto_assignments_command = "<leader>a"
 
 " Autopairs
 let g:AutoPairsMultilineClose = 0
