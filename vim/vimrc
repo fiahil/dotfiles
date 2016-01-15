@@ -60,6 +60,7 @@ augroup vimrcEx
   " Custom rules
   autocmd FileType haskell setlocal omnifunc=necoghc#omnifunc
   autocmd FileType python setlocal omnifunc=jedi#completions
+  autocmd BufNewFile *.py 0put =\"# -*- coding: utf-8; -*-\<nl>\"|$
 augroup END
 
 " Softtabs, 2 spaces
