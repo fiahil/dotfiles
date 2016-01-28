@@ -6,7 +6,7 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="agnoster"
 DISABLE_AUTO_TITLE=true
 
-plugins=(git brew sudo osx terminalapp python pip virtualenv virtualenvwrapper)
+plugins=(git brew sudo osx terminalapp python pip virtualenv virtualenvwrapper terminal)
 
 [[ -f $HOME/.dircolors ]] && eval `dircolors $HOME/.dircolors`
 source $ZSH/oh-my-zsh.sh
