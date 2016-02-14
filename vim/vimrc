@@ -89,6 +89,7 @@ endif
 
 " Change CtrlP invocation
 let g:ctrlp_map = '<leader>p'
+let g:ctrlp_cmd = 'CtrlPMRU'
 
 " Change ag invocation
 nnoremap <leader>g :Ag

@@ -3,7 +3,7 @@
 function vew() {
   if [ -n "$VIRTUAL_ENV" ]
   then
-    ne "$VIRTUAL_ENV/bin/postactivate"
+    $EDITOR "$VIRTUAL_ENV/bin/postactivate"
     workon $(basename "$VIRTUAL_ENV")
   else
     echo "No active virtualenv"
