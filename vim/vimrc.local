@@ -17,3 +17,8 @@ set background=dark    " Setting dark mode"
 let g:syntastic_python_checkers=['flake8']
 let g:syntastic_python_flake8_args='--ignore=E501,E402'
 let g:syntastic_loc_list_height=3
+
+" Search
+set smartcase
+set hlsearch
+nnoremap <leader>, :set hlsearch! hlsearch?<CR>
