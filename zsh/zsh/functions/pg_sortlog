@@ -1,0 +1,4 @@
+
+function pg_sortlog() {
+  cat $1 | sed ':r;$!{N;br};s/\n\t//g' | grep duration | cut -d ' ' -f 6- | sort -gr > sorted_$1
+}
