@@ -11,8 +11,8 @@ let g:jedi#completions_command = "<C-x>"
 " Autopairs
 let g:AutoPairsMultilineClose = 0
 
-colorscheme gruvbox
-set background=dark    " Setting dark mode"
+set background=light    " Setting light mode"
+colorscheme Tomorrow
 
 " Python syntastic
 let g:syntastic_python_checkers=['flake8']
