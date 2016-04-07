@@ -1,0 +1,5 @@
+#compdef ke
+#compdef ke1
+#compdef ke2
+
+_files -W "$LNG_DATA_DIR"
