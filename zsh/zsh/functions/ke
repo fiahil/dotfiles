@@ -31,3 +31,11 @@ function ke2() {
     fi
   fi
 }
+
+function ke_clean() {
+  if [ -n "$1" ]
+  then
+    mv $LNG_DATA_DIR/$1/loaded/* $LNG_DATA_DIR/$1/tmp/
+    echo "done"
+  fi
+}
