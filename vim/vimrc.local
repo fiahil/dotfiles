@@ -6,7 +6,7 @@ nnoremap <leader>n :NERDTreeToggle<CR>
 let g:jedi#usages_command="<leader>u"
 let g:jedi#goto_command = "<leader>c"
 let g:jedi#goto_assignments_command = "<leader>a"
-let g:jedi#completions_command = "<C-x>"
+let g:jedi#completions_command = "<C-Space>"
 
 " Autopairs
 let g:AutoPairsMultilineClose = 0
