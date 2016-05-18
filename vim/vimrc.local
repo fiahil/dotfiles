@@ -26,3 +26,9 @@ set hlsearch
 nnoremap <leader>, :set hlsearch! hlsearch?<CR>
 nnoremap # *
 nnoremap ~ #
+
+" Virtualenv
+autocmd VimEnter * VirtualEnvActivate autocomplete
+
+" Airline
+let g:airline#extensions#virtualenv#enabled = 1
