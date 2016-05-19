@@ -44,9 +44,11 @@ Plug 'shougo/neocomplete.vim'
 Plug 'davidhalter/jedi-vim'
 Plug 'flazz/vim-colorschemes'
 Plug 'scrooloose/nerdtree'
+Plug 'vale1410/vim-minizinc'
 " Plug 'jiangmiao/auto-pairs'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'hynek/vim-python-pep8-indent'
 Plug 'jmcantrell/vim-virtualenv'
+Plug 'easymotion/vim-easymotion'
 
 call plug#end()
