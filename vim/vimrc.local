@@ -28,7 +28,7 @@ nnoremap # *
 nnoremap ~ #
 
 " Virtualenv
-autocmd VimEnter * VirtualEnvActivate autocomplete
+" autocmd VimEnter * VirtualEnvActivate autocomplete
 
 " Airline
 let g:airline#extensions#virtualenv#enabled = 1

@@ -1,0 +1,9 @@
+
+function kpler_reload() {
+  echo "Moving $1/loaded items back to $1/not_loaded"
+  if [ -d /tmp/lng_data_dir/$1/loaded ] ;then
+    mv /tmp/lng_data_dir/$1/loaded/* /tmp/lng_data_dir/$1/not_loaded
+  else
+    echo "/tmp/lng_data_dir/$1/loaded is not a directory"
+  fi
+}

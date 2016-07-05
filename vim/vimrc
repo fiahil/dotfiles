@@ -94,8 +94,8 @@ let g:ctrlp_cmd = 'CtrlP'
 " Change ag invocation
 nnoremap <leader>g :Ag
 
-" Make it obvious where 90 characters is
-set textwidth=90
+" Make it obvious where ~80~ 100 characters is
+set textwidth=100
 set colorcolumn=+1
 
 " Numbers

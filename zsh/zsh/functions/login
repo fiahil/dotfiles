@@ -1,0 +1,6 @@
+
+function kpler_login() {
+  echo -n "Password: "
+  read -s password
+  curl -s -XPOST "http://localhost:9000/api/login" -H "Accept: application/json" -H "Content-type: application/json" -d "{\"email\":\"qleffray@kpler.com\", \"password\": \"$password\"}" | jq .token | tr -d '"' | xclip -sel clip && echo "Token copied to clipboard!"
+}
