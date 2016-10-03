@@ -12,8 +12,9 @@ let g:jedi#show_call_signatures = "2"
 " Autopairs
 let g:AutoPairsMultilineClose = 0
 
-set background=light    " Setting light mode"
-colorscheme Tomorrow
+" set background=light     Setting light mode
+set background=dark
+colorscheme Tomorrow-Night
 
 " Python syntastic
 let g:syntastic_python_checkers=['flake8']
@@ -39,5 +40,5 @@ map <Leader>l <Plug>(easymotion-lineforward)
 map <Leader>j <Plug>(easymotion-j)
 map <Leader>k <Plug>(easymotion-k)
 map <Leader>h <Plug>(easymotion-linebackward)
-nmap s <Plug>(easymotion-s2)
-nmap t <Plug>(easymotion-t2)
+nmap s <Plug>(easymotion-s)
+nmap t <Plug>(easymotion-t)

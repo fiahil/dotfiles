@@ -50,5 +50,6 @@ Plug 'nathanaelkane/vim-indent-guides'
 Plug 'hynek/vim-python-pep8-indent'
 Plug 'jmcantrell/vim-virtualenv'
 Plug 'easymotion/vim-easymotion'
+Plug 'fisadev/vim-isort'
 
 call plug#end()
