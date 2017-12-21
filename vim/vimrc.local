@@ -42,3 +42,7 @@ map <Leader>k <Plug>(easymotion-k)
 map <Leader>h <Plug>(easymotion-linebackward)
 nmap s <Plug>(easymotion-s)
 nmap t <Plug>(easymotion-t)
+
+" Python folding
+set foldmethod=indent
+set foldlevel=99
