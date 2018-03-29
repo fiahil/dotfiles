@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install RVM
-curl -L https://get.rvm.io | bash -s stable --autolibs=enabled --ruby
+# curl -L https://get.rvm.io | bash -s stable --autolibs=enabled --ruby
 
 if [[ $(uname) == 'Darwin' ]]; then
   # MacOS
@@ -33,22 +33,22 @@ if [[ $(uname) == 'Darwin' ]]; then
   brew cask install --appdir="/Applications" vlc
   brew cask install --appdir="/Applications" iterm2
   brew cask install --appdir="/Applications" spotify
-  brew cask install --appdir="/Applications" flycut
+  # brew cask install --appdir="/Applications" flycut
   brew cask install --appdir="/Applications" the-unarchiver
-  brew cask install --appdir="/Applications" rescuetime
-  brew cask install --appdir="/Applications" mjolnir
-  brew cask install --appdir="/Applications" dash
-  brew cask install --appdir="/Applications" seil
-  brew cask install --appdir="/Applications" slack
+  # brew cask install --appdir="/Applications" rescuetime
+  # brew cask install --appdir="/Applications" mjolnir
+  # brew cask install --appdir="/Applications" dash
+  # brew cask install --appdir="/Applications" seil
+  # brew cask install --appdir="/Applications" slack
 
   # Install Mjolnir
-  echo 'rocks_servers = { "http://rocks.moonscript.org" }' >> \
-    /usr/local/etc/luarocks52/config-5.2.lua
-  luarocks install mjolnir.hotkey
-  luarocks install mjolnir.application
-  luarocks install mjolnir.fnutils
-  luarocks install mjolnir.screen
-  luarocks install mjolnir.bg.grid
+  #  echo 'rocks_servers = { "http://rocks.moonscript.org" }' >> \
+  #    /usr/local/etc/luarocks52/config-5.2.lua
+  #  luarocks install mjolnir.hotkey
+  #  luarocks install mjolnir.application
+  #  luarocks install mjolnir.fnutils
+  #  luarocks install mjolnir.screen
+  #  luarocks install mjolnir.bg.grid
 
 else
   # Debian/Ubuntu

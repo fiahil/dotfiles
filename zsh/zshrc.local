@@ -16,6 +16,7 @@ export ARCHFLAGS="-arch x86_64"
 export PATH="/usr/local/git/bin:$PATH"
 export PATH="$HOME/.rvm/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/.npm/bin:$PATH"
 export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
 
 export PAGER=less
